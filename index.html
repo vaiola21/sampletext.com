@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sample text</title>
+    <link rel="icon" href="http://i58.tinypic.com/302rtyg.png" type="image/png"
+  </head>
+  <head>
+    <style>
+      /* The following tag selector body use the font-family and background-color properties for body of a page*/
+      Body {
+        font-family: Calibri, Helvetica, sans-serif;
+        background-color: pink;
+      }
+      /* Following container class used padding for generate space around it, and also use a background-color for specifying the lightblue color as a background */
+      .container {
+        padding: 50px;
+        background: url("https://th.bing.com/th/id/OIP.oZtCeO7gNh9d3UtmJHgGOwHaEo?pid=ImgDet&rs=1");
+      }
+      /* The following tag selector input uses the different properties for specifying the text field. */
+      input[type="text"] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+      }
+      input[type="text"]:focus {
+        background-color: orange;
+        outline: none;
+      }
+      div {
+        padding: 10px 0;
+      }
+      hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div class="container">
+        <center><h1>Sign in</h1></center>
+        <hr />
+        <label> Username: </label>
+        <input
+          type="text"
+          name="Username"
+          placeholder="Username"
+          size="15"
+          required
+        />
+        <label> Email: </label>
+        <input
+          type="text"
+          name="Email"
+          placeholder="Email"
+          size="15"
+          required
+        />
+        <label> Password: </label>
+        <input
+          type="text"
+          name="Password"
+          placeholder="Password"
+          size="15"
+          required
+        />
+
+        <label> Password check: </label>
+        <input
+          type="text"
+          name="Password check"
+          placeholder="Password check"
+          size="15"
+          required
+        />
+
+        <label> Gender : </label>
+        <select>
+          char c = '\u2022';// or "\u25cf"
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+    </form>
+  </body>
+  <a href="basic.html">
+    <button>Login Page</button>
+  </a>
+</html>
